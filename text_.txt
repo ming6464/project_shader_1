@@ -1,6 +1,0 @@
-- albedo mổ ta hoa văn,hoạ tiết màu sắc vật thể không tính tới ảnh hưởng ánh sáng(k có phản xạ, đổ bóng)
-- smoothness là độ mịn, độ mịn càng cao thì độ bản xạ càng cao
-- normal map giá trị của đó biểu thị độ lồi lõm của obj, để xác định được lồi lõm thì sẽ tuỳ thuộc vào các điểm màu sắc
-của hình ảnh được kéo vào normal map (ví các cái rãnh sẽ dùng normal map)
-- Metallic và spacular thuộc tính này biểu thị độ ảnh hưởng của các môi trường xung quanh,độ phản xạ ảnh trên vật thể
-+ metallic tính kim loại,tính dẫn điện

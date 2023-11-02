@@ -4,3 +4,13 @@
 của hình ảnh được kéo vào normal map (ví các cái rãnh sẽ dùng normal map)
 - Metallic và spacular thuộc tính này biểu thị độ ảnh hưởng của các môi trường xung quanh,độ phản xạ ảnh trên vật thể
 + metallic tính kim loại,tính dẫn điện
+
+
+#Bài 2
+
+*Node là 1 thành phần trong shader graph, sử dụng để xây dựng logic, màu sắc,..
+-master node: mỗi shader graph chỉ 1,
++ 2 loại là unlit master và PBR master
+- port là tham số của 1 node (ví dụ color,number),mỗi port có 1 loại tham số nhất định
++ các port bên trái của node sẽ là port input, bên phải là output -> vi dụ: node multiply (phép nhân)
+bên trái sẽ là các port input phần tử nhân, còn bên phải là kết quả
